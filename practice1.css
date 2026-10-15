@@ -1,0 +1,93 @@
+/* Center the card frame in the middle of the screen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* The frame container */
+.converter-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* Style the title inside the frame */
+.converter-card h1 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.converter-card .input-group label {
+
+    font-size: 1.rem;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+.converter-card .inner-frame label {
+
+    font-size: 1.rem;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Smaller Inner Frame Styling */
+.inner-frame {
+    background-color: #b5d8fa; /* Slightly lighter or different tint */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.inner-frame .inner-frame{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.unit-select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.inner-frame label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#temp-output {
+    white-space: pre-line;
+}
